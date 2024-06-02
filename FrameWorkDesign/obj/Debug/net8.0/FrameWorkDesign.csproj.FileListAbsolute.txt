@@ -1,0 +1,15 @@
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\selenium-manager\macos\selenium-manager
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\selenium-manager\windows\selenium-manager.exe
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\FrameWorkDesign.deps.json
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\FrameWorkDesign.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\bin\Debug\net8.0\FrameWorkDesign.pdb
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.csproj.AssemblyReference.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.AssemblyInfoInputs.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.AssemblyInfo.cs
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.csproj.CoreCompileInputs.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\refint\FrameWorkDesign.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.pdb
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\ref\FrameWorkDesign.dll

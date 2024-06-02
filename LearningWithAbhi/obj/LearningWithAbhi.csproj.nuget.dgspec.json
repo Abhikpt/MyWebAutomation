@@ -1,0 +1,172 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj",
+        "projectName": "FrameWorkDesign",
+        "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj",
+        "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.21.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[125.0.6422.6000, )"
+            },
+            "Selenium.WebDriver.MSEdgeDriver": {
+              "target": "Package",
+              "version": "[123.0.2420.65, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj",
+        "projectName": "LearningWithAbhi",
+        "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj",
+        "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj": {
+                "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture.NUnit3": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FrameWorkDesign/1.0.0": {
+        "dependencies": {
+          "Selenium.Support": "4.21.0",
+          "Selenium.WebDriver": "4.21.0",
+          "Selenium.WebDriver.ChromeDriver": "125.0.6422.6000",
+          "Selenium.WebDriver.MSEdgeDriver": "123.0.2420.65"
+        },
+        "runtime": {
+          "FrameWorkDesign.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "Selenium.Support/4.21.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.21.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver/4.21.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Selenium.WebDriver.ChromeDriver/125.0.6422.6000": {},
+      "Selenium.WebDriver.MSEdgeDriver/123.0.2420.65": {}
+    }
+  },
+  "libraries": {
+    "FrameWorkDesign/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "Selenium.Support/4.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MiDIsB/5Ki1AWua/b9v/eGARtI6bxseAt4EOl2fgl7WsoXlV7Zzq5/gGJ7Zs9PLvJUQMbS6WSNWuMdeSr1SXdA==",
+      "path": "selenium.support/4.21.0",
+      "hashPath": "selenium.support.4.21.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver/4.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3xIx4CJunIoLEOROfDKILIzf76WfphTpQJYE98stG1GBVBKhFO5E6wXNfCqdiWt34iNlckcDr3z+qCD+RPfuUQ==",
+      "path": "selenium.webdriver/4.21.0",
+      "hashPath": "selenium.webdriver.4.21.0.nupkg.sha512"
+    },
+    "Selenium.WebDriver.ChromeDriver/125.0.6422.6000": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tPsoSA6vxFDQCdp30enRq/4IFAMHzUHkyg9kJRBvIur9zJpdXQs4JWXgmrTn+T8LfFEfUJTgIefaZ/iahVM4bw==",
+      "path": "selenium.webdriver.chromedriver/125.0.6422.6000",
+      "hashPath": "selenium.webdriver.chromedriver.125.0.6422.6000.nupkg.sha512"
+    },
+    "Selenium.WebDriver.MSEdgeDriver/123.0.2420.65": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TzCoET+YE1afrdyASmMCqIXkNSs1NQOpLjX/zwKWChLDR2ExFSmDzpXZ3UQZ77pQuhQi4XOP+gAiRTWyLqEVQ==",
+      "path": "selenium.webdriver.msedgedriver/123.0.2420.65",
+      "hashPath": "selenium.webdriver.msedgedriver.123.0.2420.65.nupkg.sha512"
+    }
+  }
+}
