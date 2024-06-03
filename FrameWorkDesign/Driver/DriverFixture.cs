@@ -5,6 +5,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Support.UI;
 using FrameworkDesigns.Driver;
+using FrameWorkDesign.Config;
 
 namespace FrameWorkDesign.Driver
 {

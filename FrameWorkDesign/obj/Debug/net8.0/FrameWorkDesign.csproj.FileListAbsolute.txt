@@ -9,8 +9,8 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.AssemblyInfoInputs.cache
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.AssemblyInfo.cs
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.csproj.CoreCompileInputs.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.sourcelink.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\refint\FrameWorkDesign.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.pdb
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\ref\FrameWorkDesign.dll
-c:\ProjectWorkspace\Automation Project\MyWebAutomation\FrameWorkDesign\obj\Debug\net8.0\FrameWorkDesign.sourcelink.json

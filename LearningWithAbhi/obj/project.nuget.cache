@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7OH5hmQfWx+IDyQaWXUw7rIb1Op0eTF/IPtzqyOREoasUieMNlrtyN1vQihYOum7kCwg0pLo2hgcDLx6DtcVrw==",
+  "dgSpecHash": "VCl5GHI8l0w68RhNSu22Op5dfouOiio9HdpFjm+gBO7eu9mz0xqnpr/0bX82uLcYgq/KAg9+29VZlteAHxdNYg==",
   "success": true,
   "projectFilePath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,8 @@
     "C:\\Users\\ASing\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\system.text.json\\8.0.3\\system.text.json.8.0.3.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"

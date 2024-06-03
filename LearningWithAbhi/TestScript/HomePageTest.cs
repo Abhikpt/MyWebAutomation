@@ -5,8 +5,7 @@ using FrameworkDesigns.Config;
 using FrameworkDesigns.Driver;
 using LearningWithAbhi.PageObject;
 
-namespace LearningWithAbhi.TestScript
-{
+namespace LearningWithAbhi.TestScript;
 public class HomePageTests : IDisposable
 {
     private  HomePageObject _homePage ;
@@ -15,13 +14,17 @@ public class HomePageTests : IDisposable
 
     public  HomePageTests()
     {
-        TestSetting testSetting = new TestSetting()
-        {
-            browserType = BrowserType.ChromeDriver,
-            ApplicationURL = "https://www.saucedemo.com/",
-            TimeOutInterval = 3
-        };
+        // TestSetting testSetting = new TestSetting()
+        // {
+        //     browserType = BrowserType.ChromeDriver,
+        //     ApplicationURL = "https://www.saucedemo.com/",
+        //     TimeOutInterval = 3
+        // };
 
+
+        var testSetting = ConfigReader.ReadConfig();
+
+        
         _driverFixture = new DriverFixture(testSetting);
         _homePage = new HomePageObject(_driverFixture);        
     }    
@@ -66,4 +69,3 @@ public class HomePageTests : IDisposable
 
 }
 
-}

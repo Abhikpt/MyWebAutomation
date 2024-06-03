@@ -3,8 +3,8 @@ using FrameWorkDesign;
 using FrameWorkDesign.Driver;
 using OpenQA.Selenium;
 
-namespace LearningWithAbhi.PageObject
-{
+namespace LearningWithAbhi.PageObject;
+
 
     public class AddProductPageObject : IDisposable
     {       
@@ -72,4 +72,3 @@ namespace LearningWithAbhi.PageObject
         public string? ProductType { get; set;}
 
     }
-}

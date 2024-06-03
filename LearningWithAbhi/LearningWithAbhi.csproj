@@ -20,10 +20,16 @@
 
   <ItemGroup>
     <Using Include="NUnit.Framework" />
-  </ItemGroup>
+     </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FrameWorkDesign\FrameWorkDesign.csproj" />
+  </ItemGroup>
+ 
+ <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

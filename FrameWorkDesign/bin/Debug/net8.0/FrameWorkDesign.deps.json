@@ -11,7 +11,8 @@
           "Selenium.Support": "4.21.0",
           "Selenium.WebDriver": "4.21.0",
           "Selenium.WebDriver.ChromeDriver": "125.0.6422.6000",
-          "Selenium.WebDriver.MSEdgeDriver": "123.0.2420.65"
+          "Selenium.WebDriver.MSEdgeDriver": "123.0.2420.65",
+          "System.Text.Json": "8.0.3"
         },
         "runtime": {
           "FrameWorkDesign.dll": {}
@@ -48,7 +49,13 @@
         }
       },
       "Selenium.WebDriver.ChromeDriver/125.0.6422.6000": {},
-      "Selenium.WebDriver.MSEdgeDriver/123.0.2420.65": {}
+      "Selenium.WebDriver.MSEdgeDriver/123.0.2420.65": {},
+      "System.Text.Encodings.Web/8.0.0": {},
+      "System.Text.Json/8.0.3": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "8.0.0"
+        }
+      }
     }
   },
   "libraries": {
@@ -91,6 +98,20 @@
       "sha512": "sha512-9TzCoET+YE1afrdyASmMCqIXkNSs1NQOpLjX/zwKWChLDR2ExFSmDzpXZ3UQZ77pQuhQi4XOP+gAiRTWyLqEVQ==",
       "path": "selenium.webdriver.msedgedriver/123.0.2420.65",
       "hashPath": "selenium.webdriver.msedgedriver.123.0.2420.65.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yev/k9GHAEGx2Rg3/tU6MQh4HGBXJs70y7j1LaM1i/ER9po+6nnQ6RRqTJn1E7Xu0fbIFK80Nh5EoODxrbxwBQ==",
+      "path": "system.text.encodings.web/8.0.0",
+      "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hpagS9joOwv6efWfrMmV9MjQXpiXZH72PgN067Ysfr6AWMSD1/1hEcvh/U5mUpPLezEWsOJSuVrmqDIVD958iA==",
+      "path": "system.text.json/8.0.3",
+      "hashPath": "system.text.json.8.0.3.nupkg.sha512"
     }
   }
 }

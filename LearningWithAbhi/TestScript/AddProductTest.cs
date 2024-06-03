@@ -1,6 +1,6 @@
 using FrameWorkDesign.Driver;
 using LearningWithAbhi.PageObject;
-using AutoFixture;
+using FrameWorkDesign.Config;
 using AutoFixture.NUnit3;
 
 namespace LearningWithAbhi.TestScript
@@ -36,7 +36,7 @@ namespace LearningWithAbhi.TestScript
         public void TC002_PopulatProductDetails(AddProductModel product)
         {   
             _addProductObject.PopulateProduct(product);
-            Thread.Sleep(5000);
+            Thread.Sleep(2000);
         }
 
 
@@ -49,7 +49,7 @@ namespace LearningWithAbhi.TestScript
            
              _addProductObject.AddProduct(ID,Name,description,price,type);  
              _addProductObject.AddButton.Click(); 
-            Thread.Sleep(8000);
+            Thread.Sleep(2000);
         }
 
 
