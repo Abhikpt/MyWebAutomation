@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace FrameworkDesigns.Driver
+namespace FrameWorkDesign.Driver
 {
  public interface IDriverFixture
     {

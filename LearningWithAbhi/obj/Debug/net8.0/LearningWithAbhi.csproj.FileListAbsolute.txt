@@ -1,10 +1,4 @@
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\CoverletSourceRootsMapping_LearningWithAbhi
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.csproj.AssemblyReference.cache
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.GeneratedMSBuildEditorConfig.editorconfig
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.AssemblyInfoInputs.cache
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.AssemblyInfo.cs
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.csproj.CoreCompileInputs.cache
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.sourcelink.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\testhost.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\testhost.exe
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\selenium-manager\linux\selenium-manager
@@ -16,6 +10,7 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debu
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\nunit.engine.api.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\nunit.engine.core.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\appsettings.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\LearningWithAbhi.deps.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\LearningWithAbhi.runtimeconfig.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\LearningWithAbhi.dll
@@ -103,10 +98,17 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debu
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\FrameWorkDesign.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\FrameWorkDesign.pdb
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.csproj.AssemblyReference.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.AssemblyInfoInputs.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.AssemblyInfo.cs
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.csproj.CoreCompileInputs.cache
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.sourcelink.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\Learning.1137AA94.Up2Date
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\refint\LearningWithAbhi.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.pdb
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.genruntimeconfig.cache
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\ref\LearningWithAbhi.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\appsettings.json
+c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

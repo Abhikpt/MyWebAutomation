@@ -4,7 +4,6 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium.Support.UI;
-using FrameworkDesigns.Driver;
 using FrameWorkDesign.Config;
 
 namespace FrameWorkDesign.Driver
@@ -19,7 +18,7 @@ namespace FrameWorkDesign.Driver
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl(testSetting.ApplicationURL);
             Thread.Sleep(5000);
-            Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(testSetting.TimeOutInterval)); 
+            Wait = new WebDriverWait(Driver, TimeSpan.FromSeconds(testSetting.TimeOutInterval ?? 30 )); 
             
         }  
         public IWebDriver GetBrowser(BrowserType browserType)

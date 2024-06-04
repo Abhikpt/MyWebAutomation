@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VCl5GHI8l0w68RhNSu22Op5dfouOiio9HdpFjm+gBO7eu9mz0xqnpr/0bX82uLcYgq/KAg9+29VZlteAHxdNYg==",
+  "dgSpecHash": "KUXgyS3i0Pe76Dk9oQJIIgyh3//7lyE5y2NBcLN1AN8VgJZqGz7ROpZG5y8iXnj8jxOGv04uCH0tM9D9j8Rn6w==",
   "success": true,
   "projectFilePath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\LearningWithAbhi.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\ASing\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\fare\\2.1.1\\fare.2.1.1.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.net.test.sdk\\17.8.0\\microsoft.net.test.sdk.17.8.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

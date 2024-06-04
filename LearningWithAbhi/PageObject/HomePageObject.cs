@@ -1,5 +1,5 @@
-using FrameworkDesigns;
-using FrameworkDesigns.Driver;
+using FrameworkDesign;
+using FrameWorkDesign.Driver;
 using OpenQA.Selenium;
 
 namespace LearningWithAbhi.PageObject
@@ -11,8 +11,7 @@ namespace LearningWithAbhi.PageObject
    //     private readonly TestSetting _testSetting ;
      //   private  IDriverFixture _driverFixture ;
         private IWebDriver _driver;
-
-
+        private IDriverWithWait? driverWithWait;
          
         public HomePageObject( IDriverFixture  driverFixture)
         {             

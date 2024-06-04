@@ -1,12 +1,10 @@
 using System.Reflection;
-using System.Text.Json;
-using System.Text.Json.Serialization;
 using FrameWorkDesign.Config;
 using Newtonsoft.Json;
 
 
 
-namespace FrameworkDesigns.Config;
+namespace FrameworkDesign.Config;
 
     public class ConfigReader
     {
