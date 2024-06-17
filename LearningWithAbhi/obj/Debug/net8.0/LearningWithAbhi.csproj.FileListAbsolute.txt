@@ -19,6 +19,8 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debu
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\AutoFixture.NUnit3.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Fare.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -110,5 +112,3 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debu
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.pdb
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\LearningWithAbhi.genruntimeconfig.cache
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\obj\Debug\net8.0\ref\LearningWithAbhi.dll
-c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -14,7 +14,7 @@ namespace FrameWorkDesign.Driver
        public WebDriverWait Wait {get;}
         public DriverFixture(TestSetting testSetting)
         {
-            Driver = GetBrowser(BrowserType.ChromeDriver);
+            Driver = GetBrowser(testSetting.browserType);
             Driver.Manage().Window.Maximize();
             Driver.Navigate().GoToUrl(testSetting.ApplicationURL);
             Thread.Sleep(5000);

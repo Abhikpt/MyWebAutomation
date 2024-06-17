@@ -6,16 +6,18 @@ using AutoFixture.NUnit3;
 namespace LearningWithAbhi.TestScript
 {
 
+    [TestFixture(BrowserType.ChromeDriver)]
+    [TestFixture(BrowserType.EdgeDriver)]
     public class AddProductTest{        
     private readonly AddProductPageObject _addProductObject ;
     public  TestSetting _testSetting;
-        public AddProductTest()
+        public AddProductTest(BrowserType brw)
         
         {
              _testSetting = new TestSetting() 
             {
                 ApplicationURL = "https://abhikpt.github.io/LearningwithAbhi/productpage",
-                browserType = BrowserType.ChromeDriver,
+                browserType = brw,
                 TimeOutInterval = 10
             };
 

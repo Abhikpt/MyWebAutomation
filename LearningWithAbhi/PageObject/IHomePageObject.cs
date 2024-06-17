@@ -10,6 +10,8 @@ namespace LearningWithAbhi.PageObject{
         {
             IWebElement UserInput {get;}
             IWebElement PassInput {get;}
+
+            string PageUrl {get;}
             void Login();
 
         }
