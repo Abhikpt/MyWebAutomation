@@ -7,6 +7,8 @@ public class TestSetting
  public BrowserType browserType ; 
 
  public string? ProductPageURL ;
+
+ public string? ProductDataFile;
 }
 
 public enum BrowserType
