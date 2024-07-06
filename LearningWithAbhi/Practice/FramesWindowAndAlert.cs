@@ -34,12 +34,12 @@ public class FramesWindowAndAlert : IDisposable
        public void IFrameData()
        {
 
-        // selecting the maing page tag
+        // selecting the main page tag
          IWebElement elm1 = driver.FindElement(By.CssSelector("#framesWrapper > h1"));
          Assert.That(elm1.Text, Is.EqualTo("Frames"));
 
-        // selecting the content of iframe element
-        driver.SwitchTo().Frame(0);
+        // selecting the content of iframe element by id
+        driver.SwitchTo().Frame("frame1");
          IWebElement frame0 = driver.FindElement(By.CssSelector("#sampleHeading"));
          Console.WriteLine(frame0.Text);
          Assert.That(frame0.Text, Is.EqualTo("This is a sample page"));

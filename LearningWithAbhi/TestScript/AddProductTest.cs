@@ -61,6 +61,7 @@ namespace LearningWithAbhi.TestScript
              _addProductObject.AddProduct(ID,Name,description,price,type);  
              _addProductObject.AddButton.Click(); 
             Thread.Sleep(2000);
+            
         }
 
         [Test]
@@ -85,6 +86,7 @@ namespace LearningWithAbhi.TestScript
         public void TC03_AddProduct()
         {
             _addProductObject.AddButton.Click();
+
         }
 
         [Test]
