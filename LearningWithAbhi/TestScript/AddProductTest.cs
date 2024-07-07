@@ -32,7 +32,7 @@ namespace LearningWithAbhi.TestScript
         }
 
         
-        [Test, Category("Verify page opened")]
+        [Test, Category("Verify page opened"), Category("SmokeTest")]
         public void TC01_VerifyAddProductPage()
         {
             Assert.That(_addProductObject.PageHeading, Is.EqualTo("Product Management")); 

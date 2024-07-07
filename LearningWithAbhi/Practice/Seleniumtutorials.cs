@@ -100,7 +100,7 @@ public WebDriverWait wait;
         string originalWindow = _driver.CurrentWindowHandle;
 
         //Check we don't have other windows open already
-        Assert.AreEqual(_driver.WindowHandles.Count, 1);        
+        Assert.That( _driver.WindowHandles.Count, Is.EqualTo(1));        
    
         _driver.Url = "https://abhikpt.github.io/LearningwithAbhi/Demo";
 
@@ -125,6 +125,27 @@ public WebDriverWait wait;
         
       }
   
+     [Test, Category("GetLocator of a element")]
+
+     public void TC05_GetElementcoordinates()
+     {
+         _driver.Url= "https://demoqa.com/frames";
+        // selecting the main page tag
+         IWebElement elm1 = _driver.FindElement(By.CssSelector("#framesWrapper > h1"));
+         Assert.That(elm1.Text, Is.EqualTo("Frames"), "text is correct");
+
+             // Get coordinates using JavaScript
+            IJavaScriptExecutor js = (IJavaScriptExecutor) _driver ;
+          
+            int elementX = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().left", elm1) );
+            int elementY = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().top", elm1));
+
+           
+            // coordinate using Location method
+            Assert.That(elementX,Is.EqualTo(elm1.Location.X), " X coordinate is matched");
+            Assert.That(elementY,Is.EqualTo(elm1.Location.Y)," Y coordinate is matched");
+
+     }
 
 
     [OneTimeTearDown]
