@@ -8,14 +8,24 @@ namespace FrameworkDesign.Config;
 
     public class ConfigReader
     {
+
          public static TestSetting ReadConfig()
-    {
-        string? buildPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ;
+            {
+                string? buildPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ;
 
-        string accessFile = File.ReadAllText(buildPath + "/appsettings.json") ;
-       
+                string accessFile = File.ReadAllText(buildPath + "/appsettings.json") ;
+            
 
-        return JsonConvert.DeserializeObject<TestSetting>(accessFile) ;
-    }
+                return JsonConvert.DeserializeObject<TestSetting>(accessFile) ;
+            }
+
+        public static string GetprojectDir()
+        {
+              string workingDir = Environment.CurrentDirectory;
+             String projectDir = Directory.GetParent(workingDir).Parent.Parent.ToString();
+             return projectDir;
+
+        }
+    
 
     }

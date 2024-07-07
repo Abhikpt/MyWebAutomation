@@ -39,22 +39,22 @@ namespace LearningWithAbhi.TestScript
         }
 
 
-        [Test, Category("Add funcation")]
+        [Test, Category("Add Product randomly")]
     //    Data drivent testing - source: Nunit3 randomData
         [AutoData]
         public void TC002_PopulatProductDetails(AddProductModel product)
         {   
             _addProductObject.PopulateProduct(product);
             Thread.Sleep(2000);
-
         }
 
 
-        [Test]
+        [Test, Category("add prodcut with TestCase anotation")]
         // Data drivent testing- source Nunit anotation 
         [TestCase(12,"Product 01","Description 01",12.34,"Generic")]
         [TestCase(11,"Product 02","Description 02",22.34,"NEW")]
         [TestCase(09,"Product 03","Description 03",32.34,"Main")]
+        [Parallelizable]
         public void TC02_ADDProduct(int ID, string Name, String description, double price, string type )
         {
            
@@ -64,11 +64,13 @@ namespace LearningWithAbhi.TestScript
             
         }
 
-        [Test]
+        [Test, Category("add prodcut with excel")]
         //Data drivent testing - source: Excel
         [TestCase("Test01")]
         [TestCase("Test02")]
         [TestCase("Test03")]
+         [Parallelizable]
+
         public void  TC03_ADDProduct (string test)
         {
             var prd = ExcelOperation.GetTestData(test);
@@ -78,9 +80,6 @@ namespace LearningWithAbhi.TestScript
             Thread.Sleep(2000);
 
         }
-
-
-
 
         [Test]
         public void TC03_AddProduct()
