@@ -3,8 +3,8 @@ using System.Data.OleDb;
 using FrameworkDesign.Config;
 using FrameWorkDesign.DataSet;
 using Dapper;
-namespace FrameWorkDesign.Utilities;
 
+namespace FrameWorkDesign.Utilities;
 
 public class ExcelOperation
 {

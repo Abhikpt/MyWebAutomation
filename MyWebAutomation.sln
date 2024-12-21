@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameWorkDesign", "FrameWorkDesign\FrameWorkDesign.csproj", "{A45D1DAF-5483-4996-811F-DE3D33F14907}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningWithAbhi", "LearningWithAbhi\LearningWithAbhi.csproj", "{CD0807D5-E398-42C2-AF1A-301B941A635E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LWASpecflow", "LWASpecflow\LWASpecflow.csproj", "{0C926917-2BE7-41CA-9F29-690845BC00B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CD0807D5-E398-42C2-AF1A-301B941A635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD0807D5-E398-42C2-AF1A-301B941A635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD0807D5-E398-42C2-AF1A-301B941A635E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C926917-2BE7-41CA-9F29-690845BC00B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C926917-2BE7-41CA-9F29-690845BC00B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C926917-2BE7-41CA-9F29-690845BC00B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C926917-2BE7-41CA-9F29-690845BC00B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

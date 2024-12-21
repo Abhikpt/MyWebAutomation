@@ -62,12 +62,16 @@ public class FramesWindowAndAlert : IDisposable
                 //Store the ID of the original window
         string originalWindow = driver.CurrentWindowHandle;
 
+        //store the all open window 
+        var Window = driver.WindowHandles;
+
         //Check we don't have other windows open already
         Assert.AreEqual(driver.WindowHandles.Count, 1);        
    
         driver.Url = "https://abhikpt.github.io/LearningwithAbhi/Demo";
 
         wait.Until(wd => wd.FindElement(By.CssSelector("#app > div > main > div > a:nth-child(1)")).Displayed);
+        
         //Click the link which opens in a new window
         driver.FindElement(By.CssSelector("#app > div > main > div > a:nth-child(1)")).Click();
 

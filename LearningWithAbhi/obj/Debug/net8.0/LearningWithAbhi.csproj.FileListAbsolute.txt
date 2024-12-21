@@ -162,3 +162,6 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debu
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.Messages.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\MailKit.dll
+c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\MimeKit.dll
+c:\ProjectWorkspace\Automation Project\MyWebAutomation\LearningWithAbhi\bin\Debug\net8.0\BouncyCastle.Crypto.dll

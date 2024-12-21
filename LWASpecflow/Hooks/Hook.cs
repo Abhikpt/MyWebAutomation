@@ -6,6 +6,8 @@ namespace LWASpecflow.Hooks
     [Binding]
     public class Hooks
     {
+
+
         
     }
 }

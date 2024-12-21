@@ -9,11 +9,22 @@ public class TestSetting
  public string? ProductPageURL ;
 
  public string? ProductDataFile;
-}
 
+
+public TestRunType TestRunType ;
+public Uri? GridUri { get; set; }    
+
+}
 public enum BrowserType
 {
     ChromeDriver,
     EdgeDriver,
     FireFoxDriver
 }
+
+
+public enum TestRunType
+    {
+        Local ,
+        Grid
+    }
