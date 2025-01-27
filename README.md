@@ -93,3 +93,10 @@ The web automation application aims to streamline the testing process for web ap
 [Nunit-url]: https://docs.nunit.org/
 [selenium-url]: https://www.selenium.dev/documentation/webdriver/
 [Selenium Automation Project]: https://img.shields.io/badge/Selenium%20Automation%20Project-8A2BE2
+
+
+## LWASpecflow
+### Drivers
+- IDriverFactory  -> expose the Driver Property from class DriverFactory.
+-DriverFactory -> initalize the Driver object and assign chromebrowesr / remote browser. It consuming the property and value from Testsetting and Config class.
+-

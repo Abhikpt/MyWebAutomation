@@ -1,6 +1,6 @@
 Feature: Email Verification for User Registration
 
-@SmokeTesting
+
   Scenario: User registers and verifies their email
     Given the user is on the registration page
     When the user registers with a valid email address

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LWASpecflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f220083b833a3603e8b4e3ed7ebe32d956fce7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d63d7f20fb869bb1c3531d5de57a155afc724378")]
 [assembly: System.Reflection.AssemblyProductAttribute("LWASpecflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LWASpecflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

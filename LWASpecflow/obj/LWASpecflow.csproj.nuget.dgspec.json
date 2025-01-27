@@ -4,14 +4,14 @@
     "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj": {}
   },
   "projects": {
-    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj": {
+    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj",
-        "projectName": "FrameWorkDesign",
-        "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj",
+        "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
+        "projectName": "LWASpecflow",
+        "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
         "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\obj\\",
+        "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,113 +43,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Dapper": {
+            "FluentAssertions": {
               "target": "Package",
-              "version": "[2.1.35, )"
-            },
-            "ExtentReports": {
-              "target": "Package",
-              "version": "[5.0.4, )"
+              "version": "[5.10.3, )"
             },
             "MailKit": {
               "target": "Package",
               "version": "[2.5.0, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Selenium.Support": {
-              "target": "Package",
-              "version": "[4.21.0, )"
-            },
-            "Selenium.WebDriver": {
-              "target": "Package",
-              "version": "[4.21.0, )"
-            },
-            "Selenium.WebDriver.ChromeDriver": {
-              "target": "Package",
-              "version": "[125.0.6422.6000, )"
-            },
-            "Selenium.WebDriver.MSEdgeDriver": {
-              "target": "Package",
-              "version": "[123.0.2420.65, )"
-            },
-            "System.Data.OleDb": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "System.Text.Json": {
-              "target": "Package",
-              "version": "[8.0.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
-        "projectName": "LWASpecflow",
-        "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
-        "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj": {
-                "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[5.10.3, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -157,7 +57,11 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.6.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[131.0.6778.20400, )"
             },
             "SeleniumExtras.WaitHelpers": {
               "target": "Package",

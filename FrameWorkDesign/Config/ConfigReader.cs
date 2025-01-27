@@ -13,11 +13,8 @@ namespace FrameworkDesign.Config;
             {
               //  string? buildPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ;
 
-               
-
                 string accessFile = File.ReadAllText(GetprojectDir() + "/appsettings.json") ;
             
-
                 return JsonConvert.DeserializeObject<TestSetting>(accessFile) ;
             }
 
@@ -31,6 +28,8 @@ namespace FrameworkDesign.Config;
              return projectDir;
 
         }
+
+       
     
 
     }

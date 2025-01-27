@@ -16,7 +16,7 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="125.0.6422.6000" />
     <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="123.0.2420.65" />
     <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
-    <PackageReference Include="System.Text.Json" Version="8.0.3" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
   </ItemGroup>
 
     <ItemGroup>
