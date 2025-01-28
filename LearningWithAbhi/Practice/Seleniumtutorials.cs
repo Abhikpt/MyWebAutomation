@@ -105,6 +105,7 @@ public WebDriverWait wait;
         _driver.Url = "https://abhikpt.github.io/LearningwithAbhi/Demo";
 
         wait.Until(wd => wd.FindElement(By.CssSelector("#app > div > main > div > a:nth-child(1)")).Displayed);
+        wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.CssSelector("#app > div > main > div > a:nth-child(1)")));
         //Click the link which opens in a new window
         _driver.FindElement(By.CssSelector("#app > div > main > div > a:nth-child(1)")).Click();
 
