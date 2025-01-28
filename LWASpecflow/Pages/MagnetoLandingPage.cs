@@ -9,7 +9,7 @@ public class MagnetoLandingPage : IDisposable
 {
 
     private IWebDriver _driver;
-    TestSetting _testseting;
+   
 
     public MagnetoLandingPage()
     {

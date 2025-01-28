@@ -15,7 +15,7 @@ public class DriverFactory : IDriverFactory
 {
     public IWebDriver Driver { get; }
     private TestSetting _testsetting;
-    private readonly Lazy<WebDriverWait> webDriverWait;
+   // private readonly Lazy<WebDriverWait> webDriverWait;
 
     // to initialize the driver
     public DriverFactory()

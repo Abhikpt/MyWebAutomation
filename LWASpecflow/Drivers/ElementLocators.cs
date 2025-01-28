@@ -20,6 +20,7 @@ public class ElementLocators
     public ElementLocators()
     {     _testSetting =  ConfigReader.ReadConfig();    // created as it will be used data in GetWaitdriver 
          _webdriverWait = new Lazy<WebDriverWait>(GetWaitDriver);
+         _driverFactory = new DriverFactory();
         
     }  
 
