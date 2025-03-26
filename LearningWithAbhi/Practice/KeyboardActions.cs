@@ -13,15 +13,13 @@ public class KeyboardAction : IDisposable
     public WebDriverWait wait;
     public KeyboardAction()
     {
-
             driver = new ChromeDriver();
-            driver.Url = "https://magento.softwaretestingboard.com/men/tops-men/tees-men.html";
-                    
+            driver.Url = "https://magento.softwaretestingboard.com/men/tops-men/tees-men.html";                    
     }
 
    
 
-    [Test, Category("keyboard actions")]   
+    [Test, Category("keyboard actions")]  
     public void PassUpperCase()
     {
        var elm1 =  driver.FindElement(By.Id("search"));
@@ -53,11 +51,8 @@ public class KeyboardAction : IDisposable
         elm1 =  driver.FindElement(By.Id("search"));  // will get stale element error not locating again
         //press the Control key don and send A to perform Select All
         actions.SendKeys(elm1," ").KeyDown(Keys.Control).SendKeys("a" + Keys.Backspace).Perform();
-        Thread.Sleep(5000);
-       
+        Thread.Sleep(5000);       
     }
-
-
 
      public void Dispose()
     {

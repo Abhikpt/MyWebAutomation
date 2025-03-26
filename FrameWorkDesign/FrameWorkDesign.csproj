@@ -11,6 +11,7 @@
     <PackageReference Include="ExtentReports" Version="5.0.4" />    
     <PackageReference Include="MailKit" Version="2.5.0" />    
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />    
+    <PackageReference Include="NUnit" Version="2.5.7.10213" />    
     <PackageReference Include="Selenium.Support" Version="4.21.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.21.0" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="125.0.6422.6000" />

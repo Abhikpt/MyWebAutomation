@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VNhzCVkyl8KnFkn+W/choLohRqz6Q/ksTxfgq40rOAZR/ir9PVolKMbQVBb48DOPghd3xv0eBeeXOcL7bmcKAA==",
+  "dgSpecHash": "SWUYZmuB2zjhsSJXe4gZpQEwBaxm+jnw6rsOeQ0tykm82lXIdzFuBEr2x19lFAAjMIvehhRIFR6t6ajOJogDIQ==",
   "success": true,
   "projectFilePath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\FrameWorkDesign\\FrameWorkDesign.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\ASing\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\mimekit\\2.5.0\\mimekit.2.5.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\ASing\\.nuget\\packages\\nunit\\2.5.7.10213\\nunit.2.5.7.10213.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\portable.bouncycastle\\1.8.5\\portable.bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\razorengine.netcore.nixfix\\1.0.1\\razorengine.netcore.nixfix.1.0.1.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
@@ -103,5 +104,16 @@
     "C:\\Users\\ASing\\.nuget\\packages\\system.threading.threadpool\\4.3.0\\system.threading.threadpool.4.3.0.nupkg.sha512",
     "C:\\Users\\ASing\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit 2.5.7.10213' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

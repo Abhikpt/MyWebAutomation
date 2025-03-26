@@ -2170,6 +2170,7 @@
           "ExtentReports": "5.0.4",
           "MailKit": "2.5.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "NUnit": "2.5.7.10213",
           "Selenium.Support": "4.21.0",
           "Selenium.WebDriver": "4.21.0",
           "Selenium.WebDriver.ChromeDriver": "125.0.6422.6000",
@@ -6908,6 +6909,7 @@
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

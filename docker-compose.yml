@@ -1,0 +1,41 @@
+version: '3'
+services:
+  selenium-hub:
+    image: selenium/hub:latest
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+
+  chrome:
+    image: selenium/node-chrome:latest
+    container_name: chrome
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+    volumes:
+      - /dev/shm:/dev/shm
+
+  firefox:
+    image: selenium/node-firefox:latest
+    container_name: firefox
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
+    volumes:
+      - /dev/shm:/dev/shm
+
+  tests:
+    image: mcr.microsoft.com/dotnet/sdk:latest
+    container_name: tests
+    volumes:
+      - .:/app
+    working_dir: /app
+    depends_on:
+      - selenium-hub
+      - chrome
+      - firefox
+    command: ["dotnet", "test"]
