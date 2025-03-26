@@ -56,6 +56,7 @@ public WebDriverWait wait;
        public void TC02_IFrameData()
        {
         _driver.Url= "https://demoqa.com/frames";
+
         // selecting the main page tag
          IWebElement elm1 = _driver.FindElement(By.CssSelector("#framesWrapper > h1"));
          Assert.That(elm1.Text, Is.EqualTo("Frames"));
@@ -67,7 +68,7 @@ public WebDriverWait wait;
          Assert.That(frame0.Text, Is.EqualTo("This is a sample page"));
          
 
-         // selecting the content of outer element
+         // switch back to the content of main page
          _driver.SwitchTo().DefaultContent();
         IWebElement elm2 = _driver.FindElement(By.CssSelector("#framesWrapper > h1"));
          Assert.That(elm2.Text, Is.EqualTo("Frames"));
@@ -92,13 +93,11 @@ public WebDriverWait wait;
       [Test, Category("window Handling"), Order(1)]
       public void TC04_WindowHandel()
       {
+       _driver.Url = "https://abhikpt.github.io/LearningwithAbhi";       
 
-       _driver.Url = "https://abhikpt.github.io/LearningwithAbhi";
-        
-
-                //Store the ID of the original window
+        //Store the ID of the original window
         string originalWindow = _driver.CurrentWindowHandle;
-
+    
         //Check we don't have other windows open already
         Assert.That( _driver.WindowHandles.Count, Is.EqualTo(1));        
    
@@ -127,7 +126,6 @@ public WebDriverWait wait;
       }
   
      [Test, Category("GetLocator of a element")]
-
      public void TC05_GetElementcoordinates()
      {
          _driver.Url= "https://demoqa.com/frames";
@@ -135,17 +133,15 @@ public WebDriverWait wait;
          IWebElement elm1 = _driver.FindElement(By.CssSelector("#framesWrapper > h1"));
          Assert.That(elm1.Text, Is.EqualTo("Frames"), "text is correct");
 
-             // Get coordinates using JavaScript
-            IJavaScriptExecutor js = (IJavaScriptExecutor) _driver ;
+          // Get coordinates using JavaScript
+          IJavaScriptExecutor js = (IJavaScriptExecutor) _driver ;
           
-            int elementX = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().left", elm1) );
-            int elementY = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().top", elm1));
-
+          int elementX = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().left", elm1) );
+          int elementY = Convert.ToInt32( js.ExecuteScript("return arguments[0].getBoundingClientRect().top", elm1));
            
-            // coordinate using Location method
-            Assert.That(elementX,Is.EqualTo(elm1.Location.X), " X coordinate is matched");
-            Assert.That(elementY,Is.EqualTo(elm1.Location.Y)," Y coordinate is matched");
-
+          // coordinate using Location method
+          Assert.That(elementX,Is.EqualTo(elm1.Location.X), " X coordinate is matched");
+          Assert.That(elementY,Is.EqualTo(elm1.Location.Y)," Y coordinate is matched");
      }
 
 

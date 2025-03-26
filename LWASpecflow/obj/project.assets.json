@@ -6328,11 +6328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
+      "projectUniqueName": "c:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
       "projectName": "LWASpecflow",
-      "projectPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
+      "projectPath": "c:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\LWASpecflow.csproj",
       "packagesPath": "C:\\Users\\ASing\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\obj\\",
+      "outputPath": "c:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LWASpecflow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASing\\AppData\\Roaming\\NuGet\\NuGet.Config"

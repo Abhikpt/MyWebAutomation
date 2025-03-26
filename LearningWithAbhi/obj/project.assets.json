@@ -2170,6 +2170,7 @@
           "ExtentReports": "5.0.4",
           "MailKit": "2.5.0",
           "Microsoft.Extensions.DependencyInjection": "8.0.0",
+          "NUnit": "2.5.7.10213",
           "Selenium.Support": "4.21.0",
           "Selenium.WebDriver": "4.21.0",
           "Selenium.WebDriver.ChromeDriver": "125.0.6422.6000",
@@ -6988,5 +6989,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\ProjectWorkspace\\Automation Project\\MyWebAutomation\\LearningWithAbhi\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

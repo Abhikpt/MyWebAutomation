@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[2.5.7.10213, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.21.0, )"

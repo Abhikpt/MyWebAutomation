@@ -13,7 +13,10 @@ public class LoginPage
         public LoginPage( DriverFixture driverFixture)
         {
             driver = driverFixture.Driver;
+            driver.Navigate().GoToUrl("https://www.flipkart.com/");
         }
+
+        
 
         
 

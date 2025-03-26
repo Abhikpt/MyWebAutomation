@@ -1,5 +1,3 @@
-
-
 using FrameWorkDesign.Driver;
 using OpenQA.Selenium;
 

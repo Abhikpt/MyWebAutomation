@@ -26,6 +26,8 @@ public class DemoPracticing
       String projectDir = Directory.GetParent(workingDir).Parent.Parent.ToString();
       ssFile.SaveAsFile(projectDir + "\\Screenshots\\File02.png");   
 
+  
+  
   }
 
 
