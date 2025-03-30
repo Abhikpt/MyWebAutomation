@@ -9,3 +9,6 @@ public class ProductData()
         public double ProductPrice { get; set;} = 0;
         public string? ProductType { get; set;}
 }
+
+	
+

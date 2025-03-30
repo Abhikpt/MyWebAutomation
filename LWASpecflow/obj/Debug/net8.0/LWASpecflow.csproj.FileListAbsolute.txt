@@ -1,6 +1,12 @@
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\LivingDoc.Dtos.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\LivingDoc.SpecFlowPlugin.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\NUnit3.TestAdapter.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.api.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.core.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\testcentric.engine.metadata.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\LWASpecflow.deps.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\LWASpecflow.runtimeconfig.json
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\LWASpecflow.dll
@@ -29,6 +35,7 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\SeleniumExtras.WaitHelpers.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\TechTalk.SpecFlow.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\SpecFlow.Internal.Json.dll
+C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -109,10 +116,3 @@ C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\obj\Debug\net
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\obj\Debug\net8.0\LWASpecflow.pdb
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\obj\Debug\net8.0\LWASpecflow.genruntimeconfig.cache
 C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\obj\Debug\net8.0\ref\LWASpecflow.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\NUnit3.TestAdapter.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.api.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\nunit.engine.core.dll
-C:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\testcentric.engine.metadata.dll
-c:\ProjectWorkspace\Automation Project\MyWebAutomation\LWASpecflow\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll

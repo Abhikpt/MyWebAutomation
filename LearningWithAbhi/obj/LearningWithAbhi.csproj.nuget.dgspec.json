@@ -60,9 +60,17 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.Office.Interop.Excel": {
+              "target": "Package",
+              "version": "[12.0.4518.1014, )"
+            },
             "NUnit": {
               "target": "Package",
-              "version": "[2.5.7.10213, )"
+              "version": "[3.14.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -87,6 +95,10 @@
             "System.Text.Json": {
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "WebDriverManager": {
+              "target": "Package",
+              "version": "[2.17.4, )"
             }
           },
           "imports": [
@@ -175,7 +187,7 @@
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[5.0.0, )"
             },
             "SeleniumExtras.WaitHelpers": {
               "target": "Package",
